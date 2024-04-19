@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('BgImage.jpg'); /* Path to your background image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Set the height of the background */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0; /* Remove top margin */
+    }
+
+    .container {
+      display: flex;
+      height: 30%;
+    }
+
+    .left-half {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left-half img {
+      width: 200px; /* Set the width of each image */
+      margin: 0 10px; /* Add some horizontal spacing between images */
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to the content */
+      border-radius: 10px; /* Add rounded corners to the content box */
+      max-width: 800px; /* Set maximum width of the content box */
+    }
+
+    .content h1 {
+      text-align: center;
+      margin-bottom: 20px; /* Add some space below the heading */
+      font-size: 20px; /* Set font size for the heading */
+    }
+
+    .content p {
+      text-align: justify;
+      font-size: 14px; /* Set the font size of the paragraph */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left-half">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+  </div>
+
+  <div class="content">
+    <h1>LOREM IPSUM</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
